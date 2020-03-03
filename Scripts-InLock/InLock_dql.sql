@@ -34,3 +34,5 @@ from Usuario
 where Email= 'admin@admin.com'
 
 select * from Jogos
+
+select * from Estudios

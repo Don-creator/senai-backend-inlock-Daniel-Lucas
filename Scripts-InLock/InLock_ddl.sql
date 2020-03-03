@@ -28,4 +28,4 @@ create table Usuario (
  IdTipoUsuario int FOREIGN KEY references  TipoUsuario(idTipoUsuario)
 )
 
-drop table Usuario
+truncate table Jogos

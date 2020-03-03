@@ -12,5 +12,7 @@ namespace Senai.InLock.WebApi.Domains
         public string Descricao { get; set; }
         public string Valor { get; set; }
         public DateTime DataLancamento { get; set; }
+
+        public int IdEstudio { get; set; }
     }
 }

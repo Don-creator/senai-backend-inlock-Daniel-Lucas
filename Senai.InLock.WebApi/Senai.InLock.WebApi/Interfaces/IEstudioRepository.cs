@@ -16,8 +16,10 @@ namespace Senai.InLock.WebApi.Interfaces
 
         void AtualizarIdCorpo(EstudioDomain estudio);
 
-        void AtualizarIdUrl(EstudioDomain estudio);
+        void AtualizarIdUrl(int id, EstudioDomain estudio);
 
         void Deletar(int id);
+
+
     }
 }
